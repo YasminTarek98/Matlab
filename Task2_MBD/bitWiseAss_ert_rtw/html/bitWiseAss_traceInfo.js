@@ -1,0 +1,37 @@
+function RTW_rtwnameSIDMap() {
+	this.rtwnameHashMap = new Array();
+	this.sidHashMap = new Array();
+	this.rtwnameHashMap["<Root>"] = {sid: "bitWiseAss"};
+	this.sidHashMap["bitWiseAss"] = {rtwname: "<Root>"};
+	this.rtwnameHashMap["<Root>/In1"] = {sid: "bitWiseAss:7"};
+	this.sidHashMap["bitWiseAss:7"] = {rtwname: "<Root>/In1"};
+	this.rtwnameHashMap["<Root>/In2"] = {sid: "bitWiseAss:8"};
+	this.sidHashMap["bitWiseAss:8"] = {rtwname: "<Root>/In2"};
+	this.rtwnameHashMap["<Root>/Bitwise AND"] = {sid: "bitWiseAss:1"};
+	this.sidHashMap["bitWiseAss:1"] = {rtwname: "<Root>/Bitwise AND"};
+	this.rtwnameHashMap["<Root>/Bitwise NAND"] = {sid: "bitWiseAss:4"};
+	this.sidHashMap["bitWiseAss:4"] = {rtwname: "<Root>/Bitwise NAND"};
+	this.rtwnameHashMap["<Root>/Bitwise NOR"] = {sid: "bitWiseAss:3"};
+	this.sidHashMap["bitWiseAss:3"] = {rtwname: "<Root>/Bitwise NOR"};
+	this.rtwnameHashMap["<Root>/Bitwise NOT"] = {sid: "bitWiseAss:6"};
+	this.sidHashMap["bitWiseAss:6"] = {rtwname: "<Root>/Bitwise NOT"};
+	this.rtwnameHashMap["<Root>/Bitwise OR"] = {sid: "bitWiseAss:2"};
+	this.sidHashMap["bitWiseAss:2"] = {rtwname: "<Root>/Bitwise OR"};
+	this.rtwnameHashMap["<Root>/Bitwise XOR"] = {sid: "bitWiseAss:5"};
+	this.sidHashMap["bitWiseAss:5"] = {rtwname: "<Root>/Bitwise XOR"};
+	this.rtwnameHashMap["<Root>/Out1"] = {sid: "bitWiseAss:9"};
+	this.sidHashMap["bitWiseAss:9"] = {rtwname: "<Root>/Out1"};
+	this.rtwnameHashMap["<Root>/Out2"] = {sid: "bitWiseAss:10"};
+	this.sidHashMap["bitWiseAss:10"] = {rtwname: "<Root>/Out2"};
+	this.rtwnameHashMap["<Root>/Out3"] = {sid: "bitWiseAss:11"};
+	this.sidHashMap["bitWiseAss:11"] = {rtwname: "<Root>/Out3"};
+	this.rtwnameHashMap["<Root>/Out4"] = {sid: "bitWiseAss:12"};
+	this.sidHashMap["bitWiseAss:12"] = {rtwname: "<Root>/Out4"};
+	this.rtwnameHashMap["<Root>/Out5"] = {sid: "bitWiseAss:13"};
+	this.sidHashMap["bitWiseAss:13"] = {rtwname: "<Root>/Out5"};
+	this.rtwnameHashMap["<Root>/Out6"] = {sid: "bitWiseAss:14"};
+	this.sidHashMap["bitWiseAss:14"] = {rtwname: "<Root>/Out6"};
+	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
+	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
+}
+RTW_rtwnameSIDMap.instance = new RTW_rtwnameSIDMap();
