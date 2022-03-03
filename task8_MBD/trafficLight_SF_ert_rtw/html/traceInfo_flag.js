@@ -1,0 +1,56 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["trafficLight_SF.c:39c45"]=1;
+    this.traceFlag["trafficLight_SF.c:40c42"]=1;
+    this.traceFlag["trafficLight_SF.c:43c55"]=1;
+    this.traceFlag["trafficLight_SF.c:67c49"]=1;
+    this.traceFlag["trafficLight_SF.c:91c49"]=1;
+    this.traceFlag["trafficLight_SF.c:115c49"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["trafficLight_SF.c:39"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:40"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:43"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:44"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:45"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:46"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:49"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:52"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:55"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:57"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:58"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:60"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:63"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:66"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:67"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:68"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:69"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:72"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:75"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:78"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:82"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:84"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:87"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:90"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:91"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:92"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:93"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:96"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:99"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:102"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:108"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:111"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:114"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:115"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:116"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:117"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:120"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:123"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:126"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:152"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:153"]=1;
+    this.lineTraceFlag["trafficLight_SF.c:154"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
